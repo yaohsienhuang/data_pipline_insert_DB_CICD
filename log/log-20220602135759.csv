@@ -1,0 +1,14 @@
+﻿log
+2022-06-02 13:58:00.087316 -> 開始進行資料讀取與處理程序...
+"2022-06-02 13:58:00.197744 [success] -> 獲取資料夾 : ['MES_FTP/AutoScheduling/2022/0602/Simu', 'MES_FTP/AutoScheduling/2022/0602/20220602080000']"
+2022-06-02 13:58:00.197811 [success] -> 篩選資料區間 : 2022060212 <-> 2022060213
+2022-06-02 13:58:00.197822 [err] -> MES_FTP/AutoScheduling/2022/0602/ : 內無資料夾
+2022-06-02 13:58:00.226987 -> 完成資料讀取與處理程序。
+2022-06-02 13:58:00.227119 -> 開始進行DB execute...
+2022-06-02 13:58:00.227203 -> dataDict沒有資料[eim] : 跳過 DB execute
+2022-06-02 13:58:00.229962 -> dataDict沒有資料[gtsdat_STACKDIEOPER] : 跳過 DB execute
+2022-06-02 13:58:00.232579 -> dataDict沒有資料[ntcent] : 跳過 DB execute
+2022-06-02 13:58:00.234439 -> dataDict沒有資料[ntclot] : 跳過 DB execute
+2022-06-02 13:58:00.235686 -> dataDict沒有資料[uph] : 跳過 DB execute
+2022-06-02 13:58:00.236938 -> dataDict沒有資料[WipOutPlanTime] : 跳過 DB execute
+2022-06-02 13:58:00.238306 -> 完成進行DB execute。

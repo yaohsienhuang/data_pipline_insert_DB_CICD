@@ -1,0 +1,11 @@
+﻿log
+2022-06-02 14:06:50.719997 -> 開始進行資料讀取與處理程序...
+"2022-06-02 14:06:50.807952 [success] -> 獲取資料夾 : ['MES_FTP/AutoScheduling/2022/0602/Simu', 'MES_FTP/AutoScheduling/2022/0602/20220602080000']"
+2022-06-02 14:06:50.808019 [success] -> 篩選資料區間 : 0601 <-> 0602
+2022-06-02 14:06:50.808035 [success] -> 處理資料夾內容 : MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/
+2022-06-02 14:06:50.863117 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/eim.csv : 開始進行讀檔
+2022-06-02 14:06:51.249082 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/eim.csv : 讀檔成功
+2022-06-02 14:06:51.249217 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/gtsdat_STACKDIEOPER.csv : 開始進行讀檔
+2022-06-02 14:06:51.307336 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/gtsdat_STACKDIEOPER.csv : 讀檔成功
+2022-06-02 14:06:51.307433 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntcent.csv : 開始進行讀檔
+2022-06-02 14:06:51.891970 [err] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntcent.csv : 讀檔失敗，異常訊息['utf-8' codec can't decode byte 0xb0 in position 3675: invalid start byte]

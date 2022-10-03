@@ -1,0 +1,44 @@
+﻿log
+2022-06-02 13:28:26.671794 -> 開始進行資料讀取與處理程序...
+"2022-06-02 13:28:26.919313 [success] -> 獲取資料夾 : ['MES_FTP/AutoScheduling/2022/0602/Simu', 'MES_FTP/AutoScheduling/2022/0602/20220602080000']"
+2022-06-02 13:28:26.919313 [success] -> 篩選資料區間 : 0601 <-> 0602
+2022-06-02 13:28:26.919313 [success] -> 處理資料夾內容 : MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/
+2022-06-02 13:28:27.055146 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/eim.csv : 開始進行讀檔
+2022-06-02 13:28:27.403677 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/eim.csv : 讀檔成功
+2022-06-02 13:28:27.404675 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/gtsdat_STACKDIEOPER.csv : 開始進行讀檔
+2022-06-02 13:28:27.499497 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/gtsdat_STACKDIEOPER.csv : 讀檔成功
+2022-06-02 13:28:27.499497 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntcent.csv : 開始進行讀檔
+2022-06-02 13:28:29.545576 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntcent.csv : 讀檔成功
+2022-06-02 13:28:29.545576 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntclot.csv : 開始進行讀檔
+2022-06-02 13:28:29.797024 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/ntclot.csv : 讀檔成功
+2022-06-02 13:28:29.798023 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/uph.csv : 開始進行讀檔
+2022-06-02 13:28:30.500358 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/uph.csv : 讀檔成功
+2022-06-02 13:28:30.500358 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/WipOutPlanTime_20220602080636.csv : 開始進行讀檔
+2022-06-02 13:28:38.067146 [success] -> MES_FTP/AutoScheduling/2022/0602/20220602080000/MD/WipOutPlanTime_20220602080636.csv : 讀檔成功
+2022-06-02 13:28:38.080112 -> 完成資料讀取與處理程序。
+2022-06-02 13:28:38.080112 -> 開始進行DB execute...
+2022-06-02 13:28:38.080112 [success] -> mes_eim : 處理中...  
+2022-06-02 13:28:38.200788 [success] -> mes_eim : 完成delete timestamp重複者
+2022-06-02 13:28:38.420282 [success] -> mes_eim : 完成將原始資料回壓active='N'
+2022-06-02 13:28:39.144425 [success] -> mes_eim : 完成新資料insert(20220602080000) 
+2022-06-02 13:28:39.144425 [success] -> mes_gtsdat_stackdieoper : 處理中...  
+2022-06-02 13:28:39.194286 [success] -> mes_gtsdat_stackdieoper : 完成delete timestamp重複者
+2022-06-02 13:28:39.252138 [success] -> mes_gtsdat_stackdieoper : 完成將原始資料回壓active='N'
+2022-06-02 13:28:39.335975 [success] -> mes_gtsdat_stackdieoper : 完成新資料insert(20220602080000) 
+2022-06-02 13:28:39.335975 [success] -> mes_ntcent : 處理中...  
+2022-06-02 13:28:39.395625 [success] -> mes_ntcent : 完成delete timestamp重複者
+2022-06-02 13:28:39.486621 [success] -> mes_ntcent : 完成將原始資料回壓active='N'
+2022-06-02 13:28:42.435178 [success] -> mes_ntcent : 完成新資料insert(20220602080000) 
+2022-06-02 13:28:42.435178 [success] -> mes_ntclot : 處理中...  
+2022-06-02 13:28:42.585775 [success] -> mes_ntclot : 完成delete timestamp重複者
+2022-06-02 13:28:42.788232 [success] -> mes_ntclot : 完成將原始資料回壓active='N'
+2022-06-02 13:28:43.912222 [success] -> mes_ntclot : 完成新資料insert(20220602080000) 
+2022-06-02 13:28:43.912222 [success] -> mes_uph : 處理中...  
+2022-06-02 13:28:44.045864 [success] -> mes_uph : 完成delete timestamp重複者
+2022-06-02 13:28:44.213415 [success] -> mes_uph : 完成將原始資料回壓active='N'
+2022-06-02 13:28:45.139935 [success] -> mes_uph : 完成新資料insert(20220602080000) 
+2022-06-02 13:28:45.139935 [success] -> mes_wipoutplantime : 處理中...  
+2022-06-02 13:28:45.747455 [success] -> mes_wipoutplantime : 完成delete timestamp重複者
+2022-06-02 13:28:47.042694 [success] -> mes_wipoutplantime : 完成將原始資料回壓active='N'
+2022-06-02 13:29:09.604320 [success] -> mes_wipoutplantime : 完成新資料insert(20220602080000) 
+2022-06-02 13:29:09.610304 -> 完成進行DB execute。
